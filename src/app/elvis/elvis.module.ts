@@ -1,0 +1,19 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+import { ElvisRoutingModule } from './elvis-routing.module';
+import { HomeComponent } from './pages/home/home.component';
+import { ContactComponent } from './pages/contact/contact.component';
+
+
+@NgModule({
+  declarations: [
+    HomeComponent,
+    ContactComponent
+  ],
+  imports: [
+    CommonModule,
+    ElvisRoutingModule
+  ]
+})
+export class ElvisModule { }
